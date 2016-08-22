@@ -10,32 +10,32 @@
 
 
     
-    <form name="form" method="post">
+      <form name="form" method="post">
 
-        <table border=2 class="table table-hover table-striped">
+        <table  border=2 class="table table-hover table-striped"> 
        
-            
+          
             
             <tbody>
             <tr>
-                <td>First Name</td>
+                <td>First Name:</td>
                 <td><input type="text" name="fname" id="fname" placeholder="Enter First Name"></td>
             
             </tr>
             <tr>
-                <td>Last Name</td>
+                <td>Last Name:</td>
                 <td><input type="text" name="Lname" id="Lname" placeholder="Enter Last Name"></td>
             </tr>
             <tr>
-                <td>Gender</td>
+                <td>Gender:</td>
                 <td><input type="radio" name="gender" value="male">Male
                 <input type="radio" name="gender" value="Female">Female
                 <input type="radio" name="gender" value="Other">Other</td>
             </tr>
-                <td>Country</td>
+                <td>Country:</td>
                 <td><select name="Country">
                  
-    <option value="    "> Any country</option> 
+   <option hidden value ="Any"> Choose Countries </option > 
     <option value="AFG">Afghanistan</option>
 	<option value="ALA">Åland Islands</option>
 	<option value="ALB">Albania</option>
@@ -290,15 +290,20 @@
                     </select>
                 </td>
             <tr>
-                <td>Classes Taken</td>
+                <td>Classes Taken:</td>
                 <td><input type="checkbox" name="class" value="Java">Java<br>
                     <input type="checkbox" name="class" value="UI">UI<br>
                     <input type="checkbox" name="class" value="C#">C#<br>
                     <input type="checkbox" name="class" value="VMWare">VMWare</td>
             </tr>
             </tbody>
-                </table>
+                  
+            
+          
+        
+          </table>
           <input type="submit" value="submit">
-    </form> 
+    </form >
+        
 </body>
 </html>
